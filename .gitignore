@@ -65,3 +65,15 @@ Thumbs.db
 
 # Webdev artifacts (checkpoint zips, migrations, etc.)
 .webdev/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local configuration
+config.local.php
+
+# Dependencies
+/vendor/
+/node_modules/
